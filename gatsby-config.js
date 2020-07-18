@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Yihua's Blog`,
+    title: `Divisoria News`,
     description: `A blog for my thoughts!`,
-    author: `Yihua Zhang`,
+    author: `Divisoria Manila`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     {
